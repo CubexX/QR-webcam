@@ -5,6 +5,7 @@ Python 3, ZBar, OpenCV, and PIL.
 
 # To install Zbar
 ```sudo apt-get install zbar```
+
 ```sudo pip install zbarlight```
 
 # To install OpenCV
