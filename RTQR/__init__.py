@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
+__author__ = 'CubexX'
+
 import cv2
 import zbarlight
 from PIL import Image
 
 
-def main():
+def decode():
     # Start capture video
     capture = cv2.VideoCapture(0)
     code = None
@@ -30,8 +33,4 @@ def main():
             code = codes
             break
 
-    print(code)
-
-
-if __name__ == "__main__":
-    main()
+    return code[0].decode("utf-8")
