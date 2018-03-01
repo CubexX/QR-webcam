@@ -31,6 +31,7 @@ def decode():
 
         if codes:
             code = codes
+            cv2.destroyAllWindows()
             break
 
     return code[0].decode("utf-8")
