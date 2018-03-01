@@ -25,5 +25,5 @@ if __name__ == "__main__":
 ```
 
 ```bash
-# pip install git+https://github.com/CubexX/RTQR.git
+# pip install git+https://github.com/CubexX/QR-webcam.git
 ```
